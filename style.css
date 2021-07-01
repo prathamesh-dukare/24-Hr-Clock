@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(195 186 186);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-sec {
+    box-sizing: border-box;
+}
+
+.hero-sec img {
+    height: 25rem;
+    width: auto;
+    margin: 4rem 2rem 2rem 0;
+
+}
+
+.span {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-size: 75px;
+    margin: 0, auto;
+    margin-right: 6rem;
+}
+
+.inner-div {
+    width: 96%;
+    position: relative;
+    right: 18%;
+}
+
+.inner-span {
+    font-size: 48px;
+    position: relative;
+    right: 1.6em;
+}
