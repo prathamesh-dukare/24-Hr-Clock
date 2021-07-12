@@ -55,7 +55,7 @@ span.span {
     .hero-sec img {
         margin: 5vh 0;
     }
-}
-@media screen and (max-width:350px) {
-
+    span.inner-span {
+        margin: 0 0;
+    }
 }
