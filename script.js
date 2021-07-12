@@ -15,7 +15,7 @@ function getTime() {
     });
 
     let timestr = `${timeobj["h"]}:${timeobj["m"]}:${timeobj["s"]}`
-    console.log(timestr)
+    // console.log(timestr)
     let span = document.querySelector(".span");
     span.innerText = timestr;
     let span2 = document.querySelector(".inner-span");
@@ -38,7 +38,7 @@ function getTime() {
     }
 
 
-    let daystr = `On ${day} ${myDate.getDate()}/0${myDate.getMonth() + 1}/${myDate.getFullYear()}`
+    let daystr = `${day} ${myDate.getDate()}/0${myDate.getMonth() + 1}/${myDate.getFullYear()}`
     span2.innerText = daystr;
 }
 
